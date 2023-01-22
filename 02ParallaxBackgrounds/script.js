@@ -21,7 +21,7 @@ let imgWidth = 2400;
 let x = 0;
 //背景图片的宽度
 let x2 = imgWidth;
-
+//保证所有的图片已经loaded
 window.addEventListener("load", function () {
   const slider = document.querySelector("#slider");
   slider.value = gameSpeed;
